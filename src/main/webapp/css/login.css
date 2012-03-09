@@ -1,0 +1,80 @@
+.login-container h2{
+	background: url("../images/signature-logo.png") no-repeat scroll center top transparent;
+	text-indent: -9999px;
+	height:77px;
+	margin:auto;
+}	
+
+.login-form{
+	background: url("../images/leather-bg.jpg") repeat scroll 0 0 transparent;
+	width: 400px;
+	margin:50px auto;	
+	padding:15px 10px;
+	-moz-border-radius: 5px;
+	border:2px solid #BABABA;
+	position:relative;		
+}
+.login-form input, .login-form input[type='email']{
+	margin: 20px auto;
+	width:300px;
+	height:30px;
+	display:block;
+	padding:3px 10px;	
+	font-size:20px;
+	background: #F2EDE4;
+	box-shadow: 0 1px 3px #BABABA inset;
+	-moz-border-radius: 5px;
+	-moz-transition: all 0.4s ease-out 0s;
+	border:2px solid #BABABA;	
+	
+}
+
+
+.login-form input:focus { 
+    outline:none;
+    border-color:#C8D5E0;
+    box-shadow:0 0 10px #C8D5E0;
+}
+
+
+.login-form-inner{
+	-moz-border-radius: 5px;
+	border: 2px solid #FCF8D7;
+	box-shadow: 0 -3px 6px 2px #CCCCCC;
+	padding: 25px 0px;
+}	
+
+#login-background{
+	border:1px solid;
+	position:relative;
+	width:500px;
+	height:500px;
+	margin:auto;
+	text-align:center;
+}
+
+.lock-icon{
+	display:block;
+	background: url("../images/icon.png") no-repeat scroll center top transparent;
+	width:63px;
+	height:65px;
+	position:absolute;
+	top:-20px;
+	left:180px;
+}	
+
+
+input::-webkit-input-placeholder {
+    color: #CCC;
+    font-style: italic;
+}
+
+input:-moz-placeholder {
+    color: #CCC;
+    font-style: italic;
+}
+
+.login-form .error{
+	display:block;
+	color:red;
+}	
