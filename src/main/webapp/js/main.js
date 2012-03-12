@@ -10,9 +10,11 @@ require.config({
    // order: 'libs/require/order',
     "templates": '../templates',
     "jquery.tools": "libs/jquery.tools",
+    "jquery.validate": "libs/jquery.validate",
     
     "jQuery": "libs/jQuery",
     "jQueryUIComponents": "libs/jQueryUIComponents",
+    "jQueryValidate": "libs/jQueryValidate",
     "Underscore": "libs/Underscore",
     "Backbone": "libs/Backbone",
     "Templates": "libs/templating/Templates",
